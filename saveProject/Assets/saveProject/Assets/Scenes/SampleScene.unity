@@ -283,7 +283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1134816655}
-  - component: {fileID: 1134816654}
+  - component: {fileID: 1134816656}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -291,24 +291,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1134816654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1134816653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0c9eb97f725fa40933d01ecd282757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UiText: {fileID: 1557838442}
-  data:
-    name: thesky
-    level: 1
-    Hp: 100
-    Mp: 100
 --- !u!4 &1134816655
 Transform:
   m_ObjectHideFlags: 0
@@ -324,6 +306,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1134816656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134816653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ba1c841a7ccc540bfec396a6d05765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UiText: {fileID: 1557838442}
+  data:
+    name: 
+    level: 0
+    Hp: 0
+    Mp: 0
 --- !u!1 &1557838440
 GameObject:
   m_ObjectHideFlags: 0
